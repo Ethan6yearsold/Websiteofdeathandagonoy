@@ -20,7 +20,7 @@
             padding: 20px;
             margin: 20px;
             border border-radius: 20px;
-            box-shadow: 10px 10px 5px #aaa;
+            
         }
 
         body {
@@ -48,12 +48,18 @@
             height: 60px;
             margin-bottom: 20px;
             padding: 30px;
+transition: transform .3s;
+        }
 
+        li a:hover {
+            transform: translateY(-10px);
+            box-shadow:10px 5px 5px #33333371;
         }
 
         #familyguy {
             background-image: url(familyguy.png);
             background-size: contain;
+            transition: background-image 3s, tranform 3s;
         }
 
         h1 {
@@ -63,13 +69,16 @@
         #familyguy:hover {
             background-image: url("markypoo.png");
             background-size: contain;
+            
         }
 
         .mark {
             position: fixed;
             z-index: -100;
         }
+        
     </style>
+    
 
 </head>
 
@@ -89,6 +98,7 @@
         <li><a href="boxes.html"> Boxes</a></li>
         <li><a href="sites.html"> links boy!</a></li>
         <li><a href="images.html"> images, guess who!</a></li>
+        <li><a href="transition.html"> images, guess who!</a></li>
     </ul>
 
 </body>
