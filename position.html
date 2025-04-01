@@ -1,0 +1,56 @@
+<!doctype html>
+      <hr>      
+<html lang="en">
+    <title>positions or whatever</title>
+<style>
+div{ 
+    
+
+    width: 200px;height: 500px;
+   border: 2px solid #333 ;
+   margin:20px; 
+   border border-radius: 20px;
+
+} 
+#one{
+    position: static;
+    background-color: aquamarine;
+}
+#two{
+    position: relative;
+    left: 100px;
+    top:-500px;
+    background-image: url(scarylink.jpg);
+    background-size: contain;
+}
+#free{
+    background-image: url(markypoo.png); background-size: contain;
+    
+}
+#fo{
+    position:fixed;
+    background-image: url(kurtjump.jpg);
+    background-size: contain;
+    right: 0;
+    bottom: 0;
+}
+#five{
+    background-image: url(nomarkno.png);
+    background-size: contain;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+
+}
+ </head>
+ </style>
+
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="free"></div>
+<div id="fo"></div>
+<div id="five"></div>
+</body>
+
+</html>
