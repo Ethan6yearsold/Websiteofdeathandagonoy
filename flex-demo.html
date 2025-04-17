@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>flexbox demo</title>
+    <style>
+        body {
+            background-image: url(markypoo.png);background-size: contain;
+            color: #444;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        #one {
+            background-image: url(nomarkno.png);background-size: contain;
+            border: 2px solid #444;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            /*flex-direction: row;*/
+           justify-content: center;
+            align-items: end;
+        }
+
+        #one div {
+            text-align: center;
+            background-image: url(mahrk.jpg);background-size: contain;
+            border: 2px solid #4444;
+            border-radius: 10px;
+            /*flex-grow: 1;*/
+        }
+
+        #two {
+            background-image: url(nomarkno.png);background-size: contain;
+            border: 2px solid #444;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column; 
+           /* justify-content: space-around;*/
+            align-items: start;
+        }
+
+        #two div {
+            text-align: center;
+            background-image: url(mahrk.jpg);background-size: contain;
+            border: 2px solid #4444;
+            border-radius: 10px;
+            /*flex-grow: 1;*/
+        }
+
+        #three {
+            background-image: url(nomarkno.png);background-size: contain;
+            border: 2px solid #444;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            /*flex-direction: row;*/
+            justify-content: space-between;
+           align-items: center;
+        }
+
+        #three div {
+            text-align: center;
+            background-image: url(mahrk.jpg);background-size: contain;
+            border: 2px solid #4444;
+            border-radius: 10px;
+            /*flex-grow: 1;*/
+        }
+    </style>
+</head>
+
+<body>
+    <h2>flexbox demo setup-The More Mark the Marrier</h2>
+    <div id="one">
+        <div>
+            <p>one mark</p>
+        </div>
+        <div>
+            <p>two marks</p>
+        </div>
+        <div>
+            <p>three<br>marks for you</p>
+        </div>
+    </div>
+
+    <div id="two">
+        <div>
+            <p>one mark</p>
+        </div>
+        <div>
+            <p>two marks</p> 
+        </div>
+        <div>
+            <p>three<br>marks for you</p>
+        </div>
+    </div>
+
+    <div id="three">
+        <div>
+            <p>one mark</p>
+        </div>
+        <div>
+            <p>two marks</p>
+        </div>
+        <div>
+            <p>three<br>marks for you</p>
+        </div>
+    </div>
+</body>
+
+</html>
